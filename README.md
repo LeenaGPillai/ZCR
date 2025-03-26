@@ -9,12 +9,11 @@ where, s(n) — Signal value at time and N — Length of the signal
 
 In the code, initially do signal generation:
 * Signal Generation:
-    fs = 1000 — Sampling frequency (samples per second)
-    f = 5 — Frequency of the sine wave (5 Hz)
+    fs = 1000 — Sampling frequency (samples per second);  
+    f = 5 — Frequency of the sine wave (5 Hz);  
     duration = 1 sec — 5 cycles of sine wave in 1 second
 * Then Zero Crossing Detection:
-    np.diff(np.sign(sine_wave)) — Computes the difference of sign changes.
-    np.where() — Identifies indices where zero crossings occur.
+    np.diff(np.sign(sine_wave)) — Computes the difference of sign changes; np.where() — Identifies indices where zero crossings occur.
 
 * ZCR Calculation:
     𝑍𝐶𝑅=Number of zero crossings/duration
