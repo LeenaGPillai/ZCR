@@ -30,3 +30,5 @@ In the code, initially do signal generation:
 * Speech Processing: To detect voiced/unvoiced segments.
 * Music Analysis: To differentiate between percussive and tonal components.
 * Audio Classification: For identifying different types of sounds.
+## Prerequesits 
+matplotlib and numpy
