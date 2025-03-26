@@ -2,7 +2,9 @@
 Zero Crossing Rate (ZCR) in a Sine Wave
 The Zero Crossing Rate (ZCR) measures how many times a signal crosses the zero axis within a given time interval. In other words, it counts how frequently the amplitude of the signal changes its sign (from positive to negative or vice versa).
 ZCR is calculated by:
+
 ![image](https://github.com/user-attachments/assets/67ed8c20-c14a-4d54-825a-15d679027579)
+
 where, s(n) — Signal value at time and N — Length of the signal
 
 In the code, initially do signal generation:
