@@ -7,6 +7,8 @@ ZCR is calculated by:
 
 where, s(n) — Signal value at time and N — Length of the signal
 
+## 1. ZCR.py
+
 In the code, initially do signal generation:
 * Signal Generation:
     fs = 1000 — Sampling frequency (samples per second);  
@@ -20,11 +22,13 @@ In the code, initially do signal generation:
   
 
   
-## Output
+### Output
 ​Zero Crossing Rate (ZCR): 10.00 crossings per second
 
 ![image](https://github.com/user-attachments/assets/384f3352-85d7-4458-a9e7-a9686f2a41b4)
 
+## 2. ZCR_speech.py
+To calculate the total number of zero crossings and zero crossing rate in an audio file. The sample audio is available in the same folder 
 
 ## Use Case:
 * Speech Processing: To detect voiced/unvoiced segments.
