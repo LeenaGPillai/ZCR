@@ -28,7 +28,12 @@ In the code, initially do signal generation:
 ![image](https://github.com/user-attachments/assets/384f3352-85d7-4458-a9e7-a9686f2a41b4)
 
 ## 2. ZCR_speech.py
-To calculate the total number of zero crossings and zero crossing rate in an audio file. The sample audio is available in the same folder 
+To calculate the total number of zero crossings and zero crossing rate in the following audio file: (the sample audio is available in the same folder) 
+![image](https://github.com/user-attachments/assets/1eaed77b-0e44-48a9-b0ca-71002e6208cd)
+* Total Zero Crossing: 307
+* Average Zero Crossing Rate: 0.1407 crossings per frame
+![image](https://github.com/user-attachments/assets/7a26ff29-bf2a-40b8-bfcb-af8ecf96a337)
+
 
 ## Use Case:
 * Speech Processing: To detect voiced/unvoiced segments.
